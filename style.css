@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang&family=Inconsolata:wght@200&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  font-size: 13px;
+}
+
+nav ul li a {
+  align-items: center;
+  padding: 3px; 
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  gap: 30px ;
+}
+.top{
+  display: flex;
+  align-items: center;
+  padding: 3px; 
+  gap: 30px ;
+ 
+}
+  .topnav ul {
+    display:flex;
+    padding:8px;
+    font-size: 10px;
+    font: optional;
+    color:rgb(0, 0, 0); 
+    justify-content: space-between;
+    padding:20px;
+    font-size: 12px;
+  }
+
+
+  .w {
+    color: white;
+    justify-content: space-between;
+    
+  }
+  a{
+    color: white;
+  }
+  nav{
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    
+  .btn{
+    padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  justify-content: center;
+  align-items: auto;
+  }
+  section{
+    padding: none;
+    width:none;
+    height:none;
+    justify-content: none;
+    padding-bottom: none;
+  }
+  .searchbar1{
+    width: 350px;
+    height: 20px;
+    align-items: center;
+    align-self: center; 
+     
+  }
+  .c-nav {
+    grid-area: sub;
+    font-size: 0.8em;
+    padding: 10px;
+    margin-top: 40px;
+  }
+      
+
+  .subcon{
+     display: grid;
+  }
+  
+  .btn-downloadads{
+    margin-right: auto;
+    right: auto;
+    border-radius: 10px;
+    height: 30px;
+    color:rgb(76, 76, 76);
+    
+  }
+
+  .pic{
+    display: flex;
+    justify-content: center;
+    gap: inherit;
+  }
+
+  .new {
+    justify-content: center;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 30px;
+   color:#6d6e6e; 
+  }
+   
+  
+  .spaces{
+    justify-content: center;
+    align-items: center;
+    white-space: 10px;
+    margin-top: 2vh;
+  }
+  .align{
+    justify-content: center;  
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    color:#6d6e6e;
+    white-space: inherit;
+  }
+ 
+.spacer{
+  white-space: 10px;
+  margin-top: 12vh;
+  row-gap: 0.8em;
+  color:#6d6e6e;
+}
+.zalora{
+  justify-content: space-between;
+  display: flex;
+  
+}
+.discover , span{
+  place-items: center;
+  display: flex;
+  justify-content: center;
+  color:#6d6e6e;
+}
+
+.secbrand {
+  display: flex;
+
+  padding-top: 10px;
+  padding-left: 100px;
+  color: #6d6e6e;
+}
+
+.brands {
+  flex: 0 0 calc(10% - 12px);
+  max-width: calc(20% - 12px);
+  padding: 20px;
+  margin: 6px;
+  color: #6d6e6e;
+  background-color: #ffffff;
+
+}
+.brandingx{
+  display: flex;
+  justify-content: space-between;
+  justify-items:self-end;
+  color: red;
+  margin-left: 120px;
+  margin-right: 620px;
+  margin-top: 100px;
+  color: #6d6e6e;
+}
+a{
+  font-weight: bold;
+  color: #6d6e6e;
+}
+br{
+  color: black;
+}
+
+.info{
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+
+  
+}
+.company img{
+  width: 180px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.location img{
+  margin-top: 10px;
+  width: 130px;
+}
+
+.payment img{
+  margin-top: 0;
+  width: 130px;
+}
+
+.delivery img{
+  width: 130px;
+}
+
+.system img{
+  margin-top: 10px;
+  
+}
+.brandings img{
+  display: flex;
+  border: 0;
+  padding-bottom: 30px;
+ 
+}
+
+.zaloralog img{
+    width: 300px;   
+}
+
+.zal{
+  width: 385px;
+  font-size: 15px;
+  margin-right: 15px;
+  font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.liz{
+  padding-left: 10px;
+ 
+}
+.font{
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.liz {
+  padding-top: 30px;
+  width: 170px;
+  
+}
+
+.liz ul{
+  font-size: 12px;
+  display: grid;
+  grid-template-rows:auto;
+  justify-content: space-between;
+    padding: 30px 5px 0 5px;
+}
+
+.about{
+  padding: 30px 5px 0 5px;
+}
+
+
+.about ul{
+  padding:30px 5px 30px 5px;
+  font-size: 12px;
+}
+
+.new-foot-newzal{
+  padding: 30px 5px 0 5px;
+}
+.pad h5{
+ display: flex;
+ justify-content: space-between;
+}
+.pad p{
+  color: yellow;
+ }
+
+.new-to-z form{
+  font-size: 12px;
+  padding-top: 30px;
+}
+
+
+footer{
+  background-color: black;
+  color: azure;
+}
+
+footer ul{
+  list-style-type: none;
+ 
+}
+footer a{
+  text-decoration: none;
+  color: azure;
+}
+.apps{
+  padding-left: 390px;
+  width: 300px;
+  height: 150px;
+}
+.apps img{
+  padding-left: 40px;
+}
+
+.twobottons{
+ 
+  padding-top: 20px;
+  display: flex; 
+  justify-content:space-between;
+  padding-bottom: 10px;
+}
+.twobottons button{
+     background-color: black;
+      border: 1px solid white;
+      color: white;
+      width: 140px; 
+      height: 35px;
+      
+}
+
+.foter-v{
+  padding: 0  74px;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  display: grid;
+ 
+}
+
+.up-footer{
+  text-align: left;
+  display: flex;
+  
+}
+.social-media a{
+  padding: 12px;
+  font-size: 30px; 
+  padding-top: 15px;
+  margin-top: 10px;
+}
+
+
+.footer-x{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-x{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.last{
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
